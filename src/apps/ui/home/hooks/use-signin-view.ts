@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { termsModels } from '../model/terms.model';
+import { termsModels } from '../terms-form/model/terms.model';
 
 export const useSignInView = () => {
   const [email, setEmail] = useState("");
